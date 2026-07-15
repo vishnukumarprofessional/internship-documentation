@@ -1,0 +1,63 @@
+site_name: Vishnukumar N | Internship Documentation
+site_description: My Internship Journey at iGradAI Labs
+site_author: Vishnukumar N
+
+theme:
+  name: material
+
+  font:
+    text: Poppins
+    code: Fira Code
+
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+
+    - scheme: slate
+      primary: deep purple
+      accent: lime
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.instant
+    - navigation.footer
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.emoji
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - About Me: about.md
+  - Internship Overview: overview.md
+  - Tasks: tasks.md
+  - Projects: projects.md
+  - Learnings: learnings.md
+  - Achievements: achievements.md
+  - Challenges: challenges.md
+  - Conclusion: conclusion.md
